@@ -1,3 +1,7 @@
+/**
+* @brief Given a string in 12-hour format, create a function that will return a new string in military time format
+* @data 2022-09-10
+**/
 #include <iostream> 
 #include <cstring>
 
@@ -18,7 +22,10 @@ int main()
 }
 
 
-/**
+/** 
+ * This function description was written by Mintlify Doc Writer for Python, JavaScript, TypeScript, C++, PHP, Java, C#, Ruby & more
+ * (VSCode extension)
+ *
  * If the time is AM, then we check if it is 12 AM. If it is, then we change it to 00 and return the
  * new time. If it is not 12 AM, then we return the time without changing it. If the time is PM, then
  * we check if it is 12 PM. If it is, then we return the time without changing it. If it is not 12 PM,
